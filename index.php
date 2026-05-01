@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mon flux d'actualités JS</title>
+    <style>
+    /* Styles de base pour rendre l'interface propre et lisible */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 800px;
+        margin: 40px auto;
+        background: #f0f2f5;
+        line-height: 1.6;
+    }
+
+    .article {
+        background: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        border-left: 5px solid #f7df1e;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    h1 {
+        color: #222;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        margin-top: 0;
+    }
+
+    a {
+        color: #0056b3;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    small {
+        color: #666;
+        font-style: italic;
+    }
+    </style>
+</head>
+
+<body>
+
+    <h1>Actualités JavaScript</h1>
+
+    <div id="news-container">Chargement des actualités en cours...</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>-
