@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "flux_actualites/index.php": {
+      "runtime": "vercel-php@0.7.2"
+    }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/flux_actualites/index.php" }
+  ]
+}
